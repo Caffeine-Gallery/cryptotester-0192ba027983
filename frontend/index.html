@@ -3,37 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto Blog</title>
+    <title>Groovy Crypto Blog</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="disco-ball"></div>
     <header>
-        <h1>Crypto Blog</h1>
+        <h1>Groovy Crypto Blog</h1>
     </header>
     <main>
         <section id="post-list">
-            <h2>Recent Posts</h2>
+            <h2>Far Out Posts</h2>
             <ul id="posts"></ul>
         </section>
         <section id="new-post">
-            <h2>Create New Post</h2>
+            <h2>Drop a New Groove</h2>
             <form id="post-form">
-                <input type="text" id="post-title" placeholder="Title" required>
-                <input type="text" id="post-author" placeholder="Author" required>
-                <textarea id="post-content" placeholder="Content" required></textarea>
-                <button type="submit">Submit Post</button>
+                <input type="text" id="post-title" placeholder="Funky Title" required>
+                <input type="text" id="post-author" placeholder="Groovy Author" required>
+                <textarea id="post-content" placeholder="Your Far Out Content" required></textarea>
+                <button type="submit">Submit Your Groove</button>
             </form>
         </section>
         <section id="post-detail" style="display: none;">
             <h2 id="post-detail-title"></h2>
             <p id="post-detail-author"></p>
             <p id="post-detail-content"></p>
-            <h3>Comments</h3>
+            <h3>Funky Comments</h3>
             <ul id="comments"></ul>
             <form id="comment-form">
-                <input type="text" id="comment-author" placeholder="Your Name" required>
-                <textarea id="comment-content" placeholder="Your Comment" required></textarea>
-                <button type="submit">Add Comment</button>
+                <input type="text" id="comment-author" placeholder="Your Groovy Name" required>
+                <textarea id="comment-content" placeholder="Your Far Out Comment" required></textarea>
+                <button type="submit">Drop Your Comment</button>
             </form>
         </section>
     </main>
